@@ -1,4 +1,10 @@
-// component styles are encapsulated and only applied to their components
-* {
-  color: #FFEF00;
+:host {
+  display: block;
+  height: 80vh;
+}
+
+#controlsToggle {
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
 }
