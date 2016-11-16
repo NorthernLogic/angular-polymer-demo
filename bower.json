@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Adam Duren <adam@wearenorthern.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/preboot/angular2-webpack",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "google-castable-video": "^1.0.3",
+    "google-map": "^1.1.14"
+  }
+}

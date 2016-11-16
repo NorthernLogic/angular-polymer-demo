@@ -1,0 +1,7 @@
+<link rel="import" href="/google-map/google-map.html">
+<link rel="import" href="/google-map/google-map-directions.html">
+
+<google-map #map latitude="37.779" longitude="-122.3892" min-zoom="9" max-zoom="11"language="en"></google-map>
+<google-map-directions #directions start-address="Oakland" end-address="Mountain View" language="en"></google-map-directions>
+
+<button id="controlsToggle" (click)="map.disableDefaultUi = !map.disableDefaultUi">Toggle controls</button>

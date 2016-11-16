@@ -203,7 +203,12 @@ module.exports = function makeWebpackConfig() {
           })
         ]
       }
-    })
+    }),
+
+    new CopyWebpackPlugin([{
+      from: root('bower_components'),
+    }])
+
   ];
 
   if (!isTest && !isProd) {
